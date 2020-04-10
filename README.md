@@ -7,6 +7,9 @@ put all file in .zsh dir then execude this script
 ln -s ~/.zsh/.zshrc ~/.zshrc
 ```
 
+## Dependencies 
+
+* neofetch
 
 ## install ohmyzsh
  
