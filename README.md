@@ -1,4 +1,4 @@
-#My config of zsh
+# My config of zsh
 
 put all file in .zsh dir then execude this script
 
@@ -20,5 +20,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## links to plugins
 https://github.com/Dabz/kafka-zsh-completions/blob/master/kafka.plugin.zsh
 
+## Theme
 
+https://github.com/Powerlevel9k/powerlevel9k
 
