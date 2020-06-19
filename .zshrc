@@ -2,10 +2,12 @@
 source .zsh/proxy
 
 
+
 # History
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+alias history="history 0"
 bindkey -e
 
 
@@ -21,6 +23,9 @@ _comp_options+=(globdots)		# Include hidden files.
 source .zsh/kafka.plugin.zsh
 neofetch
 
+#az
+autoload bashcompinit && bashcompinit
+source .zsh/az.completion
 
 # syntax highlightinq
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -28,5 +33,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export LANG="en_US.UTF-8"
 source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs newline)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(kubecontext  time)
+

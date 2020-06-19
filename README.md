@@ -14,7 +14,7 @@ ln -s ~/.zsh/.zshrc ~/.zshrc
 
 ## links to plugins
 https://github.com/Dabz/kafka-zsh-completions/blob/master/kafka.plugin.zsh
-
+https://github.com/Azure/azure-cli/blob/dev/az.completion
 ## Theme
 
 https://github.com/Powerlevel9k/powerlevel9k
