@@ -27,9 +27,12 @@ _comp_options+=(globdots)		# Include hidden files.
 #KUBECTL
 source <(kubectl completion zsh)
 
+#HELM
+source <(helm completion zsh)
+
 #KAFKA
 source ~/.zsh/kafka.plugin.zsh
-neofetch
+#neofetch
 
 #az
 autoload bashcompinit && bashcompinit
